@@ -44,7 +44,7 @@ body::before {
 #socialMedia {
     background: transparent;
     position: fixed;
-    left: 25px;
+    right: 25px;
     bottom: 55px;
     height: 70px;
     width: 70px;
@@ -75,7 +75,7 @@ body::before {
     cursor: pointer;
     position: fixed;
     right: 25px;
-    bottom: 55px;
+    bottom: 130px;
     border-radius: 50%;
     height: 70px;
     width: 70px;
@@ -157,6 +157,7 @@ body::before {
 }
 
 .apresentation h1{
+    letter-spacing: -3px;
     color: var(--cor-primaria);
     font-size: 70px;
 }
