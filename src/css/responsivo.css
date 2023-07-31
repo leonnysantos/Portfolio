@@ -327,7 +327,7 @@
 
 
     #voltarTopo {
-        top: 130px;
+        bottom: 130px;
         right: 10px;
         height: 60px;
         width: 60px;
@@ -648,7 +648,7 @@
     
     
         #voltarTopo {
-            top: 110px;
+            bottom: 110px;
             right: 5px;
             height: 50px;
             width: 50px;
@@ -790,7 +790,7 @@
 
 
     #voltarTopo {
-        top: 90px;
+        bottom: 90px;
         right: 2px;
         height: 40px;
         width: 40px;
