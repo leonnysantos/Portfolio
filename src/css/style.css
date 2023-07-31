@@ -170,7 +170,7 @@ body::before {
 .myself img{
     height: 400px;
     width: 400px;
-    border: 3px solid var(--cor-primaria);
+    border: 8px solid var(--cor-primaria);
     border-radius: 50%;
 }
 
@@ -217,7 +217,7 @@ body::before {
 
 .infos {
     font-size: 25px;
-    text-align: justify;
+    text-align: center;
     color: var(--cor-secundaria);
 }
 
