@@ -332,8 +332,8 @@
 
 
     .navegation {
-        margin-top: 10px;
-        margin-bottom: 100px;
+        margin-top: 30px;
+        margin-bottom: 130px;
     }
 
     .options {
@@ -365,6 +365,7 @@
     /*Segunda Página*/
 
     .myInfo {
+        margin-top: 120px;
         font-size: 40px;
     }
 
@@ -381,6 +382,7 @@
     /*Terceira Página*/
 
     .skills {
+        margin-top: 110px;
         gap: 40px;
     }
 
@@ -436,6 +438,7 @@
     /*Quinta Página*/
 
     .contact {
+        margin-top: 120px;
         font-size: 40px;
     }
 
@@ -446,7 +449,7 @@
     .boxContact {
         height: 250px;
         width: 400px;
-        margin-bottom: 120px;
+        margin-bottom: 210px;
     }
 
 
@@ -473,8 +476,8 @@
 
 
     .navegation {
-        margin-top: 10px;
-        margin-bottom: 100px;
+        margin-top: 30px;
+        margin-bottom: 120px;
     }
 
     .options {
@@ -483,12 +486,12 @@
 
 
     .apresentation h1 {
-
+        margin-top: 20px;
         font-size: 30px;
     }
 
     .apresentation p {
-        margin-top: 28px;
+        margin-top: 36px;
         font-size: 16px;
     }
 
@@ -522,6 +525,7 @@
     /*Terceira Página*/
 
     .skills {
+        margin-top: 130px;
         gap: 30px;
     }
 
@@ -549,6 +553,7 @@
 
 
     .titleProjects {
+        margin-top: 90px;
         font-size: 30px;
     }
 
@@ -577,6 +582,7 @@
     /*Quinta Página*/
 
     .contact {
+        margin-top: 220px;
         font-size: 30px;
     }
 
@@ -587,7 +593,7 @@
     .boxContact {
         height: 240px;
         width: 380px;
-        margin-bottom: 110px;
+        margin-bottom: 220px;
     }
 
 
@@ -634,7 +640,7 @@
 
     /*Primeira Página*/
 .navegation {
-    margin-bottom: 50px;
+    margin-bottom: 130px;
 }
 
     .options {
@@ -648,7 +654,7 @@
     
 
     .apresentation p {
-        margin-top: 28px;
+        margin-top: 50px;
         font-size: 14px;
     }
 
@@ -728,7 +734,7 @@
     .boxContact {
         height: 180px;
         width: 300px;
-        margin-bottom: 100px;
+        margin-bottom: 260px;
     }
 
     .boxContactText h1 {
@@ -757,7 +763,7 @@
     }
 
     #socialMedia i {
-        font-size: 20px;
+        font-size: 18px;
     }
 
 
@@ -776,6 +782,7 @@
 /*Primeira Página*/
 
 .options {
+    margin-bottom: 20px;
     font-size: 10px;
 }
 
@@ -786,6 +793,7 @@
 
 
 .apresentation p {
+    margin-top: 30px;
     font-size: 12px;
 }
 
@@ -812,6 +820,7 @@
 
 
 .titleSkills {
+    margin-top: 30px;
     font-size: 24px;
 }
 
@@ -866,7 +875,7 @@
 .boxContact {
     height: 150px;
     width: 260px;
-    margin-bottom: 80px;
+    margin-bottom: 260px;
 }
 
 .boxContactText h1 {
