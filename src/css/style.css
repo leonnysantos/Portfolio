@@ -1,0 +1,467 @@
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Tektur:wght@400;500;600;700;800;900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+:root {
+    --cor-primaria: #36c768;
+    --cor-secundaria: #d1d1d1;
+    --cor-base: #151515;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', cursive;
+}
+
+
+
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+body::before {
+    content: "";
+    z-index: -1;
+    background: var(--cor-base);
+    color: var(--cor-primaria);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+}
+
+
+
+/*Redes Sociais*/
+#socialMedia {
+    background: transparent;
+    position: fixed;
+    left: 25px;
+    bottom: 55px;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    border: 2px solid var(--cor-primaria);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#socialMedia i {
+    font-size: 40px;
+    color: var(--cor-primaria);
+    transition: all 0.2s ease-in-out;
+}
+
+#socialMedia i:hover {
+    color: var(--cor-secundaria);
+}
+
+
+
+
+
+
+#voltarTopo {
+    cursor: pointer;
+    position: fixed;
+    right: 25px;
+    bottom: 55px;
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    border: 2px solid var(--cor-secundaria);
+    background: transparent;
+}
+
+
+#voltarTopo i {
+    font-size: 40px;
+    color: var(--cor-secundaria);
+    transition: all 0.2s ease-in-out;
+}
+
+#voltarTopo i:hover {
+    color: var(--cor-primaria);
+}
+
+
+
+
+
+
+
+
+/*Primeira Página*/
+.firstBox {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.navegation {
+    background: transparent;
+    color: var(--cor-secundaria);
+    height: 8%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nameLogo {
+    color: var(--cor-primaria);
+    user-select: none;
+    font-size: 34px;
+    padding-left: 8%;
+}
+
+.options {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 30px;
+    padding-right: 8%;
+    font-size: 24px;
+}
+
+.options a {
+    color: var(--cor-secundaria);
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+}
+
+.options a:hover {
+    color: var(--cor-primaria);
+}
+
+.container {
+    height: 92%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.apresentation h1{
+    color: var(--cor-primaria);
+    font-size: 70px;
+}
+
+.apresentation p{
+    color: var(--cor-secundaria);
+    font-size: 25px;
+}
+
+.myself img{
+    height: 400px;
+    width: 400px;
+    border: 3px solid var(--cor-primaria);
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Segunda Página*/
+.secondBox {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.info {
+    gap: 60px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.myInfo {
+    font-size: 70px;
+    color: var(--cor-primaria);
+}
+
+.infos {
+    font-size: 25px;
+    text-align: justify;
+    color: var(--cor-secundaria);
+}
+
+
+
+
+
+
+/*Terceira Página*/
+.thirdBox{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.skills {
+    height: 100%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 110px;
+}
+
+.list {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 60px;
+}
+
+.titleSkills {
+    font-size: 70px;
+    color: var(--cor-primaria);
+}
+
+
+.list p{
+    color: var(--cor-secundaria);
+    text-align: center;
+    font-size: 25px;
+    list-style: none;
+}
+
+.list i{
+    font-size: 100px;
+}
+
+.list i:hover{
+    color: var(--cor-primaria);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Quarta Página*/
+.fourthBox {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.titleProjects {
+    font-size: 70px;
+    color: var(--cor-primaria);
+}
+
+.projectsContainer {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.imagens {
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 600px;
+    max-width: 500px;
+    background: var(--cor-primaria);
+}
+
+.imagens h1 {
+    text-transform: uppercase;
+    color: var(--cor-base);
+    font-size: 30px;
+}
+
+.imagens p {
+    color: var(--cor-base);
+    text-align: center;
+    padding: 0 20px;
+}
+
+.imagens img {
+    border-radius: 8px 8px 0 0;
+    height: 350px;
+    width: 500px;
+}
+
+.referencias {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 10px;
+}
+
+.referencias i {
+    font-size: 25px;
+}
+
+.referencias a {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    text-decoration: none;
+    font-size: 15px;
+    color: var(--cor-base);
+    transition: all 0.2s ease-in-out;
+}
+
+.referencias a:hover {
+    color: var(--cor-secundaria);
+}
+
+
+
+
+
+
+
+
+
+/*Quinta Página*/
+.fifthBox {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.boxInfoContact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.contact {
+    font-size: 70px;
+    color: var(--cor-primaria);
+}
+
+.contactText {
+    font-size: 25px;
+    color: var(--cor-secundaria);
+}
+
+.boxContact {
+    border-radius: 5px;
+    border: 2px solid var(--cor-primaria);
+    background: transparent;
+    height: 400px;
+    width: 900px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.boxContactText {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: var(--cor-secundaria);
+}
+
+.boxContactText h1 {
+    font-size: 40px;
+}
+
+.boxContactText i {
+    font-size: 40px;
+}
+
+.iconsContact {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.iconsContact i {
+    color: var(--cor-secundaria);
+    font-size: 60px;
+    transition: all 0.2s ease-in-out;
+}
+
+.iconsContact i:hover {
+    color: var(--cor-primaria);
+}
+
+
+
+
+
+
+
+
+
+.direitos {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: var(--cor-secundaria);
+    padding: 5px;
+    width: 100%;
+    background: var(--cor-base);
+}
