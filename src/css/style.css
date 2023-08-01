@@ -222,6 +222,8 @@ body::before {
 }
 
 .destaque {
+    padding: 1px 4px;
+    font-weight: bold;
     height: auto;
     width: auto;
     color: var(--cor-primaria);
@@ -229,6 +231,8 @@ body::before {
 }
 
 .destaqueM {
+    padding: 1px 4px;
+    font-weight: bold;
     height: auto;
     width: auto;
     color: black;
