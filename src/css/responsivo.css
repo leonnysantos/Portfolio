@@ -1,22 +1,64 @@
-@media (max-height: 800px){
+@media screen and (max-height: 800px){
     .firstBox{
-        height: auto;
+        height: 100vh;
     }
     .secondBox{
-        height: auto;
+        height: 100vh;
     }
     .thirdBox{
-        height: auto;
+        height: 100vh;
     }
     .fourthBox{
         height: auto;
     }
     .fifthBox{
-        height: auto;
+        height: 100vh;
     }
 }
 
-@media (max-width: 1700px) {
+@media screen and (max-height: 700px){
+    .firstBox{
+        height: 100vh;
+    }
+    .secondBox{
+        height: 100vh;
+    }
+    .thirdBox{
+        height: 100vh;
+    }
+    .fourthBox{
+        height: auto;
+    }
+    .fifthBox{
+        height: 100vh;
+    }
+}
+
+@media screen and (max-height: 650px){
+    .firstBox{
+        height: auto;
+        gap: 20px;
+    }
+    .secondBox{
+        height: auto;
+        gap: 20px;
+    }
+    .thirdBox{
+        height: auto;
+        gap: 20px;
+    }
+    .fourthBox{
+        height: auto;
+        gap: 20px;
+    }
+    .fifthBox{
+        height: auto;
+        gap: 20px;
+    }
+}
+
+
+@media screen and (max-width: 1700px) {
 
 
 
@@ -87,7 +129,7 @@
 }
 
 
-@media (max-width: 1200px) {
+@media screen and (max-width: 1300px) {
 
 
 
@@ -95,8 +137,7 @@
 
     /*Primeira Página*/
     .firstBox {
-        height: auto;
-        margin-bottom: 100px;
+        height: 100vh;
     }
 
 
@@ -104,7 +145,6 @@
     .navegation {
         justify-content: center;
         margin-top: 20px;
-        margin-bottom: 100px;
     }
 
     .nameLogo {
@@ -123,16 +163,15 @@
 
     .apresentation h1 {
         text-align: center;
-        font-size: 50px;
+        font-size: 60px;
     }
 
     .apresentation p {
         margin-top: 40px;
-        font-size: 20px;
+        font-size: 22px;
     }
 
     .myself img {
-        margin-bottom: 40px;
         height: 300px;
         width: 300px;
     }
@@ -156,13 +195,13 @@
 
     /*Segunda Página*/
     .secondBox {
-        height: auto;
-        margin-bottom: 100px;
+        height: 100vh;
+
     }
 
 
     .info {
-        width: 80%;
+        width: 50%;
     }
 
     .myInfo {
@@ -180,8 +219,7 @@
 
     /*Terceira Página*/
     .thirdBox {
-        height: auto;
-        margin-bottom: 100px;
+        height: 100vh;
     }
 
 
@@ -270,7 +308,7 @@
 
     /*Quinta Página*/
     .fifthBox {
-        height: auto;
+        height: 100vh;
         gap: 90px;
     }
 
@@ -308,13 +346,13 @@
 
 }
 
-@media (max-width: 1100px) {
+@media screen and (max-width: 1100px) {
 
 
 
     /*Redes Sociais*/
     #socialMedia {
-        rigth: 10px;
+        right: 10px;
         height: 60px;
         width: 60px;
     }
@@ -327,7 +365,7 @@
 
 
     #voltarTopo {
-        bottom: 140px;
+        bottom: 130px;
         right: 10px;
         height: 60px;
         width: 60px;
@@ -343,7 +381,7 @@
 
 
 
-@media (max-width: 800px) {
+@media screen and (max-width: 800px) {
 
 
 
@@ -351,8 +389,8 @@
 
 
     .navegation {
-        margin-top: 30px;
-        margin-bottom: 130px;
+        margin-top: 20px;
+
     }
 
     .options {
@@ -371,7 +409,7 @@
     }
 
     .myself img {
-        margin-bottom: 30px;
+        margin-bottom: -60px;
         height: 280px;
         width: 280px;
     }
@@ -384,12 +422,12 @@
     /*Segunda Página*/
 
     .myInfo {
-        margin-top: 120px;
+
         font-size: 40px;
     }
 
     .infos {
-        width: 80%;
+        width: 96%;
         font-size: 16px;
     }
 
@@ -401,7 +439,6 @@
     /*Terceira Página*/
 
     .skills {
-        margin-top: 110px;
         gap: 40px;
     }
 
@@ -487,17 +524,11 @@
 
 }
 
-@media (max-width: 600px) {
+@media screen and (max-width: 600px) {
 
 
 
     /*Primeira Página*/
-
-
-    .navegation {
-        margin-top: 30px;
-        margin-bottom: 120px;
-    }
 
     .options {
         font-size: 14px;
@@ -505,7 +536,6 @@
 
 
     .apresentation h1 {
-        margin-top: 20px;
         font-size: 30px;
     }
 
@@ -515,9 +545,8 @@
     }
 
     .myself img {
-        margin-bottom: 30px;
-        height: 200px;
-        width: 200px;
+        height: 300px;
+        width: 300px;
     }
 
 
@@ -532,7 +561,7 @@
     }
 
     .infos {
-        width: 80%;
+        width: 100%;
         font-size: 14px;
     }
 
@@ -544,7 +573,6 @@
     /*Terceira Página*/
 
     .skills {
-        margin-top: 130px;
         gap: 30px;
     }
 
@@ -632,7 +660,7 @@
 }
 
 
-@media (max-width: 500px) {
+@media screen and (max-width: 500px) {
         /*Redes Sociais*/
         #socialMedia {
             right: 5px;
@@ -659,29 +687,27 @@
         }
 
     /*Primeira Página*/
-.navegation {
-    margin-bottom: 130px;
-}
+
 
     .options {
         font-size: 12px;
     }
 
     .apresentation h1 {
-        font-size: 28px;
+        font-size: 32px;
     }
 
     
 
     .apresentation p {
-        margin-top: 50px;
+
         font-size: 14px;
     }
 
     .myself img {
-        margin-bottom: 30px;
-        height: 180px;
-        width: 180px;
+
+        height: 290px;
+        width: 290px;
     }
 
     /*Segunda Página*/
@@ -707,7 +733,7 @@
     }
 
     .list i {
-        font-size: 40px;
+        font-size: 60px;
     }
 
     /*Quarta Página*/
@@ -774,7 +800,7 @@
 
 
 
-@media (max-width: 400px) {
+@media screen and (max-width: 400px) {
     /*Redes Sociais*/
     #socialMedia {
         right: 2px;
@@ -803,8 +829,7 @@
 /*Primeira Página*/
 
 .options {
-    margin-bottom: 20px;
-    font-size: 10px;
+    font-size: 6px;
 }
 
 .apresentation h1 {
@@ -814,13 +839,12 @@
 
 
 .apresentation p {
-    margin-top: 30px;
-    font-size: 12px;
+    font-size: 10px;
 }
 
 .myself img {
-    height: 160px;
-    width: 160px;
+    height: 200px;
+    width: 200px;
 }
 
 /*Segunda Página*/
@@ -850,7 +874,7 @@
 }
 
 .list i {
-    font-size: 36px;
+    font-size: 60px;
 }
 
 /*Quarta Página*/
@@ -890,7 +914,7 @@
 }
 
 .contactText {
-    font-size: 11px;
+    font-size: 9px;
 }
 
 .boxContact {
@@ -910,5 +934,43 @@
 .iconsContact i {
     font-size: 30px;
 }
+.direitos {
+    font-size: 8px;
+}
+}
 
+@media screen and (max-width: 300px){
+    .firstBox{
+        height: 100vh;
+    }
+    .secondBox{
+        height: 100vh;
+    }
+    .thirdBox{
+        height: 100vh;
+    }
+    .fourthBox{
+        height: auto;
+    }
+    .fifthBox{
+        height: 100vh;
+    }
+}
+
+@media screen and (max-width: 265px){
+    .firstBox{
+        height: 100vh;
+    }
+    .secondBox{
+        height: 100vh;
+    }
+    .thirdBox{
+        height: 100vh;
+    }
+    .fourthBox{
+        height: auto;
+    }
+    .fifthBox{
+        height: 100vh;
+    }
 }
