@@ -222,11 +222,15 @@ body::before {
 }
 
 .destaque {
+    height: auto;
+    width: auto;
     color: var(--cor-primaria);
     background: black;
 }
 
 .destaqueM {
+    height: auto;
+    width: auto;
     color: black;
     background: var(--cor-primaria);
 }
