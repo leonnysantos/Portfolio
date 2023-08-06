@@ -10,6 +10,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
     font-family: 'Poppins', cursive;
 }
 
@@ -376,7 +377,7 @@ body::before {
 .imagens p {
     color: var(--cor-base);
     text-align: center;
-    padding: 20px 18px;
+    padding: 18px;
 }
 
 .imagens img {
@@ -443,6 +444,7 @@ body::before {
 }
 
 .contactText {
+    text-align: center;
     font-size: 25px;
     color: var(--cor-secundaria);
 }

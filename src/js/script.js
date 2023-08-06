@@ -20,7 +20,7 @@ const voltarAoTopo = () => {
 }
 
 const verificarScrollMedia = () => {
-    if(window.pageYOffset > scrollMedia){
+    if (window.pageYOffset > scrollMedia) {
         socialMedia.style.display = 'none';
     } else {
         socialMedia.style.display = 'flex';

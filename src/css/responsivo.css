@@ -1,150 +1,8 @@
-@media screen and (max-height: 800px){
-    .firstBox{
-        height: 100vh;
-    }
-    .secondBox{
-        height: 100vh;
-    }
-    .thirdBox{
-        height: 100vh;
-    }
-    .fourthBox{
-        height: auto;
-    }
-    .fifthBox{
-        height: 100vh;
-    }
-}
-
-@media screen and (max-height: 700px){
-    .firstBox{
-        height: 100vh;
-    }
-    .secondBox{
-        height: 100vh;
-    }
-    .thirdBox{
-        height: 100vh;
-    }
-    .fourthBox{
-        height: auto;
-    }
-    .fifthBox{
-        height: 100vh;
-    }
-}
-
-@media screen and (max-height: 650px){
-    .firstBox{
-        height: auto;
-        gap: 20px;
-    }
-    .secondBox{
-        height: auto;
-        gap: 20px;
-    }
-    .thirdBox{
-        height: auto;
-        gap: 20px;
-    }
-    .fourthBox{
-        height: auto;
-        gap: 20px;
-    }
-    .fifthBox{
-        height: auto;
-        gap: 20px;
-    }
-}
-
-
-@media screen and (max-width: 1700px) {
-
-
-
-    /*Quarta Página*/
-    .fourthBox {
-        height: auto;
-
-    }
-
-    .projectsContainer {
-        flex-direction: column;
-        gap: 60px;
-    }
-
-    .imagens {
-        height: 650px;
-        max-width: 800px;
-    }
-
-    .imagens h1 {
-        font-size: 30px;
-    }
-
-    .imagens p {
-        font-size: 20px;
-    }
-
-    .imagens img {
-        height: 400px;
-        width: 800px;
-    }
-
-    .referencias {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 20px;
-        padding-bottom: 10px;
-    }
-
-    .referencias i {
-        font-size: 25px;
-    }
-
-    .referencias a {
-        display: flex;
-        align-items: center;
-        gap: 5px;
-        text-decoration: none;
-        font-size: 15px;
-        color: var(--cor-base);
-        transition: all 0.2s ease-in-out;
-    }
-
-    .referencias a:hover {
-        color: var(--cor-secundaria);
-    }
-
-
-
-
-
-
-
-
-
-
-}
-
-
-@media screen and (max-width: 1300px) {
-
-
-
-
+@media (min-width: 1192px) and (max-width: 1761px) {
 
     /*Primeira Página*/
-    .firstBox {
-        height: 100vh;
-    }
-
-
-
     .navegation {
         justify-content: center;
-        margin-top: 20px;
     }
 
     .nameLogo {
@@ -153,22 +11,165 @@
 
     .options {
         padding-right: 0;
-        font-size: 22px;
     }
 
-
     .container {
-        flex-direction: column-reverse;
+        width: 90%;
+        gap: 30px;
     }
 
     .apresentation h1 {
-        text-align: center;
-        font-size: 60px;
+        line-height: 48px;
+        font-size: 56px;
     }
 
     .apresentation p {
-        margin-top: 40px;
-        font-size: 22px;
+        font-size: 24px;
+    }
+
+    .myself img {
+        height: 350px;
+        width: 350px;
+    }
+
+
+
+    /*Segunda Página*/
+    .info {
+        gap: 50px;
+        width: 76%;
+    }
+
+    .myInfo {
+        font-size: 56px;
+    }
+
+    .infos {
+        font-size: 24px;
+    }
+
+
+    /*Terceira Página*/
+    .skills {
+        gap: 50px;
+    }
+
+    .list {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .titleSkills {
+        font-size: 56px;
+    }
+
+
+    .list p {
+        text-align: center;
+        font-size: 24px;
+
+    }
+
+    .list i {
+        font-size: 100px;
+    }
+
+
+
+    /*Quarta Página*/
+    .fourthBox {
+        height: auto;
+        gap: 50px;
+    }
+
+    .titleProjects {
+        font-size: 56px;
+    }
+
+    .projectsContainer {
+        gap: 60px;
+        flex-direction: column;
+    }
+
+    .imagens {
+        height: 600px;
+        max-width: 650px;
+    }
+
+    .imagens h1 {
+        padding-top: 20px;
+    }
+
+    .imagens p {
+        color: var(--cor-base);
+        text-align: center;
+        padding: 8px;
+    }
+
+    .imagens img {
+        height: 400px;
+        width: 650px;
+    }
+
+
+    /*Quinta Página*/
+    .contact {
+        font-size: 46px;
+    }
+
+    .contactText {
+        font-size: 24px;
+        color: var(--cor-secundaria);
+    }
+
+    .boxContact {
+        height: 400px;
+        width: 700px;
+    }
+
+    .boxContactText h1 {
+        font-size: 34px;
+    }
+
+    .boxContactText i {
+        font-size: 40px;
+    }
+
+
+    .iconsContact i {
+        color: var(--cor-secundaria);
+        font-size: 60px;
+        transition: all 0.2s ease-in-out;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1191px) {
+
+    /*Primeira Página*/
+    .navegation {
+        justify-content: center;
+    }
+
+    .nameLogo {
+        display: none;
+    }
+
+    .options {
+        padding-right: 0;
+    }
+
+    .container {
+        width: 90%;
+        gap: 30px;
+    }
+
+    .apresentation h1 {
+        line-height: 44px;
+        font-size: 46px;
+    }
+
+    .apresentation p {
+        font-size: 20px;
     }
 
     .myself img {
@@ -178,34 +179,14 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     /*Segunda Página*/
-    .secondBox {
-        height: 100vh;
-
-    }
-
-
     .info {
-        width: 50%;
+        gap: 50px;
+        width: 76%;
     }
 
     .myInfo {
-        font-size: 50px;
+        font-size: 46px;
     }
 
     .infos {
@@ -213,16 +194,652 @@
     }
 
 
-
-
-
-
     /*Terceira Página*/
-    .thirdBox {
-        height: 100vh;
+    .skills {
+        gap: 50px;
+    }
+
+    .list {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .titleSkills {
+        font-size: 46px;
     }
 
 
+    .list p {
+        text-align: center;
+        font-size: 20px;
+
+    }
+
+    .list i {
+        font-size: 90px;
+    }
+
+
+
+    /*Quarta Página*/
+    .fourthBox {
+        height: auto;
+        gap: 50px;
+    }
+
+    .titleProjects {
+        font-size: 46px;
+    }
+
+    .projectsContainer {
+        gap: 60px;
+        flex-direction: column;
+    }
+
+    .imagens {
+        height: 550px;
+        max-width: 450px;
+    }
+
+    .imagens h1 {
+        padding-top: 20px;
+    }
+
+    .imagens img {
+        height: 300px;
+        width: 450px;
+    }
+
+
+    /*Quinta Página*/
+    .contact {
+        font-size: 46px;
+    }
+
+    .contactText {
+        font-size: 24px;
+        color: var(--cor-secundaria);
+    }
+
+    .boxContact {
+        height: 350px;
+        width: 550px;
+    }
+
+    .boxContactText h1 {
+        font-size: 34px;
+    }
+
+    .boxContactText i {
+        font-size: 40px;
+    }
+
+
+    .iconsContact i {
+        color: var(--cor-secundaria);
+        font-size: 60px;
+        transition: all 0.2s ease-in-out;
+    }
+}
+
+@media (max-width: 767px) {
+
+    /*Redes Sociais*/
+    #socialMedia {
+        right: 5px;
+        bottom: 25px;
+        height: 50px;
+        width: 50px;
+    }
+
+    #socialMedia i {
+        font-size: 28px;
+    }
+
+
+
+    #voltarTopo {
+        right: 5px;
+        bottom: 85px;
+        height: 50px;
+        width: 50px;
+    }
+
+
+    #voltarTopo i {
+        font-size: 28px;
+    }
+
+}
+
+
+@media (min-width: 451px) and (max-width: 767px) {
+
+    /*Primeira Página*/
+    .navegation {
+        justify-content: center;
+    }
+
+    .nameLogo {
+        display: none;
+    }
+
+    .options {
+        font-size: 14px;
+        padding-right: 0;
+    }
+
+    .container {
+        flex-direction: column-reverse;
+        width: 90%;
+        gap: 10px;
+    }
+
+    .apresentation h1 {
+        line-height: 28px;
+        font-size: 30px;
+    }
+
+    .apresentation p {
+        font-size: 14px;
+    }
+
+    .myself img {
+        height: 250px;
+        width: 250px;
+    }
+
+
+
+    /*Segunda Página*/
+    .info {
+        gap: 50px;
+        width: 76%;
+    }
+
+    .myInfo {
+        font-size: 30px;
+    }
+
+    .infos {
+        font-size: 14px;
+    }
+
+
+    /*Terceira Página*/
+    .skills {
+        gap: 50px;
+    }
+
+    .list {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .titleSkills {
+        font-size: 30px;
+    }
+
+
+    .list p {
+        text-align: center;
+        font-size: 15px;
+
+    }
+
+    .list i {
+        font-size: 60px;
+    }
+
+
+
+    /*Quarta Página*/
+    .fourthBox {
+        height: auto;
+        gap: 50px;
+    }
+
+    .titleProjects {
+        font-size: 30px;
+    }
+
+    .projectsContainer {
+        gap: 40px;
+        flex-direction: column;
+    }
+
+    .imagens {
+        height: 450px;
+        max-width: 300px;
+    }
+
+    .imagens h1 {
+        font-size: 20px;
+        padding-top: 20px;
+    }
+
+    .imagens img {
+        height: 150px;
+        width: 300px;
+    }
+
+    .referencias i {
+        font-size: 20px;
+    }
+
+    .referencias a {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        text-decoration: none;
+        font-size: 14px;
+        color: var(--cor-base);
+        transition: all 0.2s ease-in-out;
+    }
+
+
+    /*Quinta Página*/
+    .contact {
+        font-size: 30px;
+    }
+
+    .contactText {
+        font-size: 14px;
+        color: var(--cor-secundaria);
+    }
+
+    .boxContact {
+        height: 250px;
+        width: 400px;
+    }
+
+    .boxContactText h1 {
+        font-size: 16px;
+    }
+
+    .boxContactText i {
+        font-size: 16px;
+    }
+
+
+    .iconsContact i {
+        color: var(--cor-secundaria);
+        font-size: 40px;
+        transition: all 0.2s ease-in-out;
+    }
+}
+
+@media (max-width: 450px) {
+
+    /*Primeira Página*/
+    .navegation {
+        justify-content: center;
+    }
+
+    .nameLogo {
+        display: none;
+    }
+
+    .options {
+        gap: 10px;
+        font-size: 10px;
+        padding-right: 0;
+    }
+
+    .container {
+        flex-direction: column-reverse;
+        width: 90%;
+        gap: 10px;
+    }
+
+    .apresentation h1 {
+        line-height: 28px;
+        font-size: 30px;
+    }
+
+    .apresentation p {
+        font-size: 14px;
+    }
+
+    .myself img {
+        height: 250px;
+        width: 250px;
+    }
+
+
+
+    /*Segunda Página*/
+    .info {
+        gap: 30px;
+        width: 76%;
+    }
+
+    .myInfo {
+        font-size: 28px;
+    }
+
+    .infos {
+        font-size: 12px;
+    }
+
+
+    /*Terceira Página*/
+    .skills {
+        gap: 50px;
+    }
+
+    .list {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .titleSkills {
+        font-size: 30px;
+    }
+
+
+    .list p {
+        text-align: center;
+        font-size: 15px;
+
+    }
+
+    .list i {
+        font-size: 60px;
+    }
+
+
+
+    /*Quarta Página*/
+    .fourthBox {
+        height: auto;
+        gap: 50px;
+    }
+
+    .titleProjects {
+        font-size: 30px;
+    }
+
+    .projectsContainer {
+        gap: 30px;
+        flex-direction: column;
+    }
+
+    .imagens {
+        height: 450px;
+        max-width: 250px;
+    }
+
+    .imagens h1 {
+        font-size: 18px;
+        padding-top: 20px;
+    }
+
+    .imagens img {
+        height: 150px;
+        width: 250px;
+    }
+
+    .referencias i {
+        font-size: 20px;
+    }
+
+    .referencias a {
+        padding: 0 10px;
+        font-size: 12px;
+    }
+
+
+    /*Quinta Página*/
+    .contact {
+        font-size: 30px;
+    }
+
+    .contactText {
+        font-size: 14px;
+        color: var(--cor-secundaria);
+    }
+
+    .boxContact {
+        height: 210px;
+        width: 280px;
+    }
+
+    .boxContactText h1 {
+        font-size: 16px;
+    }
+
+    .boxContactText i {
+        font-size: 16px;
+    }
+
+
+    .iconsContact i {
+        color: var(--cor-secundaria);
+        font-size: 40px;
+        transition: all 0.2s ease-in-out;
+    }
+
+    .direitos {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 300px) {
+
+    /*Primeira Página*/
+    .options {
+        gap: 8px;
+    }
+
+    .container {
+        width: 95%;
+        gap: 2px;
+    }
+
+    .apresentation h1 {
+        line-height: 24px;
+        font-size: 26px;
+    }
+
+    .apresentation p {
+        font-size: 12px;
+    }
+
+    .myself img {
+        height: 180px;
+        width: 180px;
+    }
+
+
+
+    /*Segunda Página*/
+    .info {
+        gap: 20px;
+        width: 90%;
+    }
+
+    .myInfo {
+        font-size: 24px;
+    }
+
+    .infos {
+        font-size: 10px;
+    }
+
+
+    /*Terceira Página*/
+    .skills {
+        gap: 40px;
+    }
+
+    .list {
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .titleSkills {
+        font-size: 24px;
+    }
+
+
+    .list p {
+        text-align: center;
+        font-size: 10px;
+
+    }
+
+    .list i {
+        font-size: 45px;
+    }
+
+
+
+    /*Quarta Página*/
+    .fourthBox {
+        height: auto;
+        gap: 50px;
+    }
+
+    .titleProjects {
+        font-size: 30px;
+    }
+
+    .projectsContainer {
+        gap: 30px;
+        flex-direction: column;
+    }
+
+    .imagens {
+        height: 450px;
+        max-width: 250px;
+    }
+
+    .imagens h1 {
+        font-size: 18px;
+        padding-top: 20px;
+    }
+
+    .imagens img {
+        height: 150px;
+        width: 250px;
+    }
+
+    .referencias i {
+        font-size: 20px;
+    }
+
+    .referencias a {
+        padding: 0 10px;
+        font-size: 12px;
+    }
+
+
+    /*Quinta Página*/
+    .contact {
+        font-size: 24px;
+    }
+
+    .contactText {
+        font-size: 14px;
+        color: var(--cor-secundaria);
+    }
+
+    .boxContact {
+        height: 180px;
+        width: 240px;
+    }
+
+    .boxContactText h1 {
+        font-size: 16px;
+    }
+
+    .boxContactText i {
+        font-size: 16px;
+    }
+
+
+    .iconsContact i {
+        color: var(--cor-secundaria);
+        font-size: 36px;
+        transition: all 0.2s ease-in-out;
+    }
+
+    .direitos {
+        font-size: 12px;
+    }
+}
+
+@media (max-height: 800px) {
+    body {
+        gap: 120px;
+    }
+
+    .fifthBox {
+        gap: 60px;
+    }
+
+}
+
+
+@media (max-height: 600px) {
+
+    body {
+        gap: 120px;
+    }
+
+    /*Primeira Página*/
+    .navegation {
+        justify-content: center;
+    }
+
+    .nameLogo {
+        display: none;
+    }
+
+    .options {
+        font-size: 14px;
+        padding-right: 0;
+    }
+
+    .container {
+        flex-direction: column-reverse;
+        width: 90%;
+        gap: 10px;
+    }
+
+    .apresentation h1 {
+        line-height: 28px;
+        font-size: 28px;
+    }
+
+    .apresentation p {
+        font-size: 14px;
+    }
+
+    .myself img {
+        height: 220px;
+        width: 220px;
+    }
+
+
+
+    /*Segunda Página*/
+    .info {
+        gap: 50px;
+        width: 76%;
+    }
+
+    .myInfo {
+        font-size: 30px;
+    }
+
+    .infos {
+        font-size: 14px;
+    }
+
+
+    /*Terceira Página*/
     .skills {
         gap: 30px;
     }
@@ -233,744 +850,98 @@
     }
 
     .titleSkills {
-        font-size: 50px;
+        font-size: 30px;
     }
+
 
     .list p {
-        font-size: 20px;
-    }
+        text-align: center;
+        font-size: 15px;
 
-    .list i {
-        font-size: 90px;
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    /*Quarta Página*/
-    .fourthBox {
-        height: auto;
-        margin-bottom: 100px;
-        gap: 60px;
-    }
-
-    .titleProjects {
-        font-size: 50px;
-    }
-
-    .projectsContainer {
-        flex-direction: column;
-        gap: 30px;
-    }
-
-    .imagens {
-        flex-direction: column;
-        height: 500px;
-        max-width: 400px;
-    }
-
-    .imagens h1 {
-        font-size: 28px;
-    }
-
-    .imagens p {
-        font-size: 18px;
-        padding: 0 18px;
-    }
-
-    .imagens img {
-        height: 250px;
-        width: 400px;
-    }
-
-
-
-
-
-
-
-
-
-
-    /*Quinta Página*/
-    .fifthBox {
-        height: 100vh;
-        gap: 90px;
-    }
-
-    .boxInfoContact {
-        gap: 30px;
-    }
-
-    .contact {
-        font-size: 50px;
-    }
-
-    .contactText {
-        font-size: 20px;
-    }
-
-    .boxContact {
-        height: 300px;
-        width: 600px;
-        margin-bottom: 140px;
-    }
-
-
-    .boxContactText h1 {
-        font-size: 30px;
-    }
-
-    .boxContactText i {
-        font-size: 30px;
-    }
-
-    .iconsContact i {
-        font-size: 50px;
-    }
-
-
-}
-
-@media screen and (max-width: 1100px) {
-
-
-
-    /*Redes Sociais*/
-    #socialMedia {
-        right: 10px;
-        height: 60px;
-        width: 60px;
-    }
-
-    #socialMedia i {
-        font-size: 30px;
-    }
-
-
-
-
-    #voltarTopo {
-        bottom: 130px;
-        right: 10px;
-        height: 60px;
-        width: 60px;
-    }
-
-    #voltarTopo i {
-        font-size: 30px;
-    }
-
-
-
-}
-
-
-
-@media screen and (max-width: 800px) {
-
-
-
-    /*Primeira Página*/
-
-
-    .navegation {
-        margin-top: 20px;
-
-    }
-
-    .options {
-        font-size: 18px;
-    }
-
-
-    .apresentation h1 {
-
-        font-size: 40px;
-    }
-
-    .apresentation p {
-        margin-top: 30px;
-        font-size: 18px;
-    }
-
-    .myself img {
-        margin-bottom: -60px;
-        height: 280px;
-        width: 280px;
-    }
-
-
-
-
-
-
-    /*Segunda Página*/
-
-    .myInfo {
-
-        font-size: 40px;
-    }
-
-    .infos {
-        width: 96%;
-        font-size: 16px;
-    }
-
-
-
-
-
-
-    /*Terceira Página*/
-
-    .skills {
-        gap: 40px;
-    }
-
-    .list {
-        gap: 30px;
-    }
-
-    .titleSkills {
-        font-size: 40px;
-    }
-
-    .list p {
-        font-size: 18px;
-    }
-
-    .list i {
-        font-size: 70px;
-    }
-
-
-
-
-
-    /*Quarta Página*/
-
-
-    .titleProjects {
-        font-size: 40px;
-    }
-
-    .imagens {
-        height: 488px;
-        max-width: 390px;
-    }
-
-    .imagens h1 {
-        font-size: 26px;
-    }
-
-    .imagens p {
-        font-size: 16px;
-        padding: 0 15px;
-    }
-
-    .imagens img {
-        height: 248px;
-        width: 390px;
-    }
-
-
-
-
-    /*Quinta Página*/
-
-    .contact {
-        margin-top: 120px;
-        font-size: 40px;
-    }
-
-    .contactText {
-        font-size: 18px;
-    }
-
-    .boxContact {
-        height: 250px;
-        width: 400px;
-        margin-bottom: 210px;
-    }
-
-
-    .boxContactText h1 {
-        font-size: 26px;
-    }
-
-    .boxContactText i {
-        font-size: 24px;
-    }
-
-    .iconsContact i {
-        font-size: 40px;
-    }
-
-
-}
-
-@media screen and (max-width: 600px) {
-
-
-
-    /*Primeira Página*/
-
-    .options {
-        font-size: 14px;
-    }
-
-
-    .apresentation h1 {
-        font-size: 30px;
-    }
-
-    .apresentation p {
-        margin-top: 36px;
-        font-size: 16px;
-    }
-
-    .myself img {
-        height: 300px;
-        width: 300px;
-    }
-
-
-
-
-
-
-    /*Segunda Página*/
-
-    .myInfo {
-        font-size: 30px;
-    }
-
-    .infos {
-        width: 100%;
-        font-size: 14px;
-    }
-
-
-
-
-
-
-    /*Terceira Página*/
-
-    .skills {
-        gap: 30px;
-    }
-
-    .list {
-        gap: 30px;
-    }
-
-    .titleSkills {
-        font-size: 30px;
-    }
-
-    .list p {
-        font-size: 16px;
-    }
-
-    .list i {
-        font-size: 50px;
-    }
-
-
-
-
-
-    /*Quarta Página*/
-
-
-    .titleProjects {
-        margin-top: 90px;
-        font-size: 30px;
-    }
-
-    .imagens {
-        height: 450px;
-        max-width: 350px;
-    }
-
-    .imagens h1 {
-        font-size: 24px;
-    }
-
-    .imagens p {
-        font-size: 14px;
-        padding: 0 14px;
-    }
-
-    .imagens img {
-        height: 220px;
-        width: 350px;
-    }
-
-
-
-
-    /*Quinta Página*/
-
-    .contact {
-        margin-top: 220px;
-        font-size: 30px;
-    }
-
-    .contactText {
-        font-size: 16px;
-    }
-
-    .boxContact {
-        height: 240px;
-        width: 380px;
-        margin-bottom: 220px;
-    }
-
-
-    .boxContactText h1 {
-        font-size: 24px;
-    }
-
-    .boxContactText i {
-        font-size: 22px;
-    }
-
-    .iconsContact i {
-        font-size: 38px;
-    }
-
-
-}
-
-
-@media screen and (max-width: 500px) {
-        /*Redes Sociais*/
-        #socialMedia {
-            right: 5px;
-            height: 50px;
-            width: 50px;
-        }
-    
-        #socialMedia i {
-            font-size: 28px;
-        }
-    
-    
-    
-    
-        #voltarTopo {
-            bottom: 120px;
-            right: 5px;
-            height: 50px;
-            width: 50px;
-        }
-    
-        #voltarTopo i {
-            font-size: 28px;
-        }
-
-    /*Primeira Página*/
-
-
-    .options {
-        font-size: 12px;
-    }
-
-    .apresentation h1 {
-        font-size: 32px;
-    }
-
-    
-
-    .apresentation p {
-
-        font-size: 14px;
-    }
-
-    .myself img {
-
-        height: 290px;
-        width: 290px;
-    }
-
-    /*Segunda Página*/
-
-    .myInfo {
-        font-size: 28px;
-    }
-
-    .infos {
-        font-size: 14px;
-    }
-
-
-    /*Terceira Página*/
-
-
-    .titleSkills {
-        font-size: 28px;
-    }
-
-    .list p {
-        font-size: 14px;
     }
 
     .list i {
         font-size: 60px;
     }
 
-    /*Quarta Página*/
 
+
+    /*Quarta Página*/
+    .fourthBox {
+        height: auto;
+        gap: 50px;
+    }
 
     .titleProjects {
-        font-size: 28px;
+        font-size: 30px;
+    }
+
+    .projectsContainer {
+        gap: 40px;
+        flex-direction: column;
     }
 
     .imagens {
-        height: 360px;
+        height: 450px;
         max-width: 300px;
-
     }
 
     .imagens h1 {
-        font-size: 22px;
-    }
-
-    .imagens p {
-        font-size: 13px;
-        padding: 0 10px;
+        font-size: 20px;
+        padding-top: 20px;
     }
 
     .imagens img {
-        height: 200px;
+        height: 150px;
         width: 300px;
     }
+
+    .referencias i {
+        font-size: 20px;
+    }
+
+    .referencias a {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        text-decoration: none;
+        font-size: 14px;
+        color: var(--cor-base);
+        transition: all 0.2s ease-in-out;
+    }
+
 
     /*Quinta Página*/
     .fifthBox {
         gap: 60px;
     }
 
-
     .contact {
-        font-size: 28px;
+        font-size: 30px;
     }
 
     .contactText {
-        font-size: 13px;
+        font-size: 14px;
+        color: var(--cor-secundaria);
     }
 
     .boxContact {
-        height: 180px;
-        width: 300px;
-        margin-bottom: 260px;
+        height: 150px;
+        width: 400px;
     }
 
     .boxContactText h1 {
-        font-size: 22px;
+        font-size: 16px;
     }
 
     .boxContactText i {
-        font-size: 20px;
+        font-size: 16px;
     }
+
 
     .iconsContact i {
-        font-size: 34px;
-    }
-
-}
-
-
-
-
-@media screen and (max-width: 400px) {
-    /*Redes Sociais*/
-    #socialMedia {
-        right: 2px;
-        height: 40px;
-        width: 40px;
-    }
-
-    #socialMedia i {
-        font-size: 18px;
-    }
-
-
-
-
-    #voltarTopo {
-        bottom: 100px;
-        right: 2px;
-        height: 40px;
-        width: 40px;
-    }
-
-    #voltarTopo i {
-        font-size: 20px;
-    }
-
-/*Primeira Página*/
-
-.options {
-    font-size: 6px;
-}
-
-.apresentation h1 {
-    font-size: 24px;
-}
-
-
-
-.apresentation p {
-    font-size: 10px;
-}
-
-.myself img {
-    height: 200px;
-    width: 200px;
-}
-
-/*Segunda Página*/
-.info {
-    gap: 20px;
-}
-
-.myInfo {
-    font-size: 24px;
-}
-
-.infos {
-    font-size: 12px;
-}
-
-
-/*Terceira Página*/
-
-
-.titleSkills {
-    margin-top: 30px;
-    font-size: 24px;
-}
-
-.list p {
-    font-size: 12px;
-}
-
-.list i {
-    font-size: 60px;
-}
-
-/*Quarta Página*/
-
-
-.titleProjects {
-    font-size: 24px;
-}
-
-.imagens {
-    height: 360px;
-    max-width: 240px;
-}
-
-.imagens h1 {
-    font-size: 18px;
-}
-
-.imagens p {
-    font-size: 12px;
-    padding: 0 6px;
-}
-
-.imagens img {
-    height: 170px;
-    width: 240px;
-}
-
-.referencias a{
-    font-size: 10px;
-}
-
-/*Quinta Página*/
-
-.contact {
-    font-size: 24px;
-}
-
-.contactText {
-    font-size: 9px;
-}
-
-.boxContact {
-    height: 150px;
-    width: 260px;
-    margin-bottom: 260px;
-}
-
-.boxContactText h1 {
-    font-size: 18px;
-}
-
-.boxContactText i {
-    font-size: 18px;
-}
-
-.iconsContact i {
-    font-size: 30px;
-}
-.direitos {
-    font-size: 8px;
-}
-}
-
-@media screen and (max-width: 300px){
-    .firstBox{
-        height: 100vh;
-    }
-    .secondBox{
-        height: 100vh;
-    }
-    .thirdBox{
-        height: 100vh;
-    }
-    .fourthBox{
-        height: auto;
-    }
-    .fifthBox{
-        height: 100vh;
-    }
-}
-
-@media screen and (max-width: 265px){
-    .firstBox{
-        height: 100vh;
-    }
-    .secondBox{
-        height: 100vh;
-    }
-    .thirdBox{
-        height: 100vh;
-    }
-    .fourthBox{
-        height: auto;
-    }
-    .fifthBox{
-        height: 100vh;
+        color: var(--cor-secundaria);
+        font-size: 40px;
+        transition: all 0.2s ease-in-out;
     }
 }
