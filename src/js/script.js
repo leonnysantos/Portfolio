@@ -30,5 +30,3 @@ const verificarScrollMedia = () => {
 window.addEventListener('scroll', verificarScrollButton);
 window.addEventListener('scroll', verificarScrollMedia);
 voltarTopo.addEventListener('click', voltarAoTopo);
-
-

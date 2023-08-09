@@ -32,8 +32,6 @@
         width: 350px;
     }
 
-
-
     /*Segunda Página*/
     .info {
         gap: 50px;
@@ -47,7 +45,6 @@
     .infos {
         font-size: 24px;
     }
-
 
     /*Terceira Página*/
     .skills {
@@ -63,18 +60,14 @@
         font-size: 56px;
     }
 
-
     .list p {
         text-align: center;
         font-size: 24px;
-
     }
 
     .list i {
         font-size: 100px;
     }
-
-
 
     /*Quarta Página*/
     .fourthBox {
@@ -111,7 +104,6 @@
         width: 650px;
     }
 
-
     /*Quinta Página*/
     .contact {
         font-size: 46px;
@@ -134,7 +126,6 @@
     .boxContactText i {
         font-size: 40px;
     }
-
 
     .iconsContact i {
         color: var(--cor-secundaria);
@@ -177,8 +168,6 @@
         width: 300px;
     }
 
-
-
     /*Segunda Página*/
     .info {
         gap: 50px;
@@ -192,7 +181,6 @@
     .infos {
         font-size: 20px;
     }
-
 
     /*Terceira Página*/
     .skills {
@@ -208,18 +196,14 @@
         font-size: 46px;
     }
 
-
     .list p {
         text-align: center;
         font-size: 20px;
-
     }
 
     .list i {
         font-size: 90px;
     }
-
-
 
     /*Quarta Página*/
     .fourthBox {
@@ -250,7 +234,6 @@
         width: 450px;
     }
 
-
     /*Quinta Página*/
     .contact {
         font-size: 46px;
@@ -274,7 +257,6 @@
         font-size: 40px;
     }
 
-
     .iconsContact i {
         color: var(--cor-secundaria);
         font-size: 60px;
@@ -284,7 +266,7 @@
 
 @media (max-width: 767px) {
 
-    /*Redes Sociais*/
+    /*Ícone do Whatsapp*/
     #socialMedia {
         right: 5px;
         bottom: 25px;
@@ -296,8 +278,6 @@
         font-size: 28px;
     }
 
-
-
     #voltarTopo {
         right: 5px;
         bottom: 85px;
@@ -305,13 +285,10 @@
         width: 50px;
     }
 
-
     #voltarTopo i {
         font-size: 28px;
     }
-
 }
-
 
 @media (min-width: 451px) and (max-width: 767px) {
 
@@ -349,8 +326,6 @@
         width: 250px;
     }
 
-
-
     /*Segunda Página*/
     .info {
         gap: 50px;
@@ -364,7 +339,6 @@
     .infos {
         font-size: 14px;
     }
-
 
     /*Terceira Página*/
     .skills {
@@ -380,18 +354,14 @@
         font-size: 30px;
     }
 
-
     .list p {
         text-align: center;
         font-size: 15px;
-
     }
 
     .list i {
         font-size: 60px;
     }
-
-
 
     /*Quarta Página*/
     .fourthBox {
@@ -437,7 +407,6 @@
         transition: all 0.2s ease-in-out;
     }
 
-
     /*Quinta Página*/
     .contact {
         font-size: 30px;
@@ -460,7 +429,6 @@
     .boxContactText i {
         font-size: 16px;
     }
-
 
     .iconsContact i {
         color: var(--cor-secundaria);
@@ -490,6 +458,7 @@
         flex-direction: column-reverse;
         width: 90%;
         gap: 10px;
+        margin-bottom: 20px;
     }
 
     .apresentation h1 {
@@ -506,8 +475,6 @@
         width: 250px;
     }
 
-
-
     /*Segunda Página*/
     .info {
         gap: 30px;
@@ -521,7 +488,6 @@
     .infos {
         font-size: 12px;
     }
-
 
     /*Terceira Página*/
     .skills {
@@ -537,18 +503,14 @@
         font-size: 30px;
     }
 
-
     .list p {
         text-align: center;
         font-size: 15px;
-
     }
 
     .list i {
         font-size: 60px;
     }
-
-
 
     /*Quarta Página*/
     .fourthBox {
@@ -589,7 +551,6 @@
         font-size: 12px;
     }
 
-
     /*Quinta Página*/
     .contact {
         font-size: 30px;
@@ -612,7 +573,6 @@
     .boxContactText i {
         font-size: 16px;
     }
-
 
     .iconsContact i {
         color: var(--cor-secundaria);
@@ -651,8 +611,6 @@
         width: 180px;
     }
 
-
-
     /*Segunda Página*/
     .info {
         gap: 20px;
@@ -666,7 +624,6 @@
     .infos {
         font-size: 10px;
     }
-
 
     /*Terceira Página*/
     .skills {
@@ -682,18 +639,14 @@
         font-size: 24px;
     }
 
-
     .list p {
         text-align: center;
         font-size: 10px;
-
     }
 
     .list i {
         font-size: 45px;
     }
-
-
 
     /*Quarta Página*/
     .fourthBox {
@@ -734,7 +687,6 @@
         font-size: 12px;
     }
 
-
     /*Quinta Página*/
     .contact {
         font-size: 24px;
@@ -758,7 +710,6 @@
         font-size: 16px;
     }
 
-
     .iconsContact i {
         color: var(--cor-secundaria);
         font-size: 36px;
@@ -778,11 +729,33 @@
     .fifthBox {
         gap: 60px;
     }
-
 }
 
 
-@media (max-height: 600px) {
+@media (max-height: 700px) {
+
+    /*Ícone do Whatsapp*/
+    #socialMedia {
+        right: 10px;
+        bottom: 25px;
+        height: 50px;
+        width: 50px;
+    }
+
+    #socialMedia i {
+        font-size: 28px;
+    }
+
+    #voltarTopo {
+        right: 10px;
+        bottom: 85px;
+        height: 50px;
+        width: 50px;
+    }
+
+    #voltarTopo i {
+        font-size: 28px;
+    }
 
     body {
         gap: 120px;
@@ -822,8 +795,6 @@
         width: 220px;
     }
 
-
-
     /*Segunda Página*/
     .info {
         gap: 50px;
@@ -837,7 +808,6 @@
     .infos {
         font-size: 14px;
     }
-
 
     /*Terceira Página*/
     .skills {
@@ -853,18 +823,14 @@
         font-size: 30px;
     }
 
-
     .list p {
         text-align: center;
         font-size: 15px;
-
     }
 
     .list i {
         font-size: 60px;
     }
-
-
 
     /*Quarta Página*/
     .fourthBox {
@@ -910,7 +876,6 @@
         transition: all 0.2s ease-in-out;
     }
 
-
     /*Quinta Página*/
     .fifthBox {
         gap: 60px;
@@ -938,10 +903,228 @@
         font-size: 16px;
     }
 
-
     .iconsContact i {
         color: var(--cor-secundaria);
         font-size: 40px;
         transition: all 0.2s ease-in-out;
+    }
+}
+
+@media (max-width: 200px) and (max-height: 250px) {
+
+    /*Ícone do Whatsapp*/
+    #socialMedia {
+        display: none;
+        right: 0px;
+        bottom: 0px;
+        height: 0px;
+        width: 0px;
+    }
+
+    #socialMedia i {
+        display: none;
+    }
+
+    #voltarTopo {
+        display: none;
+        right: 0px;
+        bottom: 0px;
+        height: 0px;
+        width: 0px;
+    }
+
+    #voltarTopo i {
+        display: none;
+    }
+
+    /*Primeira Página*/
+    .firstBox {
+        height: 100vh;
+    }
+
+    .navegation {
+        display: none;
+    }
+
+    .nameLogo {
+        display: none;
+    }
+
+    .options {
+        display: none;
+    }
+
+    .container {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .apresentation h1 {
+        text-align: center;
+        line-height: 10px;
+        color: var(--cor-primaria);
+        font-size: 10px;
+    }
+
+    .apresentation span {
+        color: var(--cor-primaria);
+        font-weight: bold;
+    }
+
+    .apresentation p {
+        display: none;
+    }
+
+    .myself img {
+        margin-top: 10px;
+        height: 80px;
+        width: 80px;
+        border: 6px solid var(--cor-primaria);
+        border-radius: 50%;
+    }
+
+    /*Segunda Página*/
+    .secondBox {
+        height: 100vh;
+    }
+
+    .info {
+        gap: 5px;
+        width: 90%;
+    }
+
+    .myInfo {
+        font-size: 10px;
+    }
+
+    .infos {
+        font-size: 6px;
+    }
+
+    /*Terceira Página*/
+    .thirdBox {
+        height: 100vh;
+    }
+
+    .skills {
+        gap: 10px;
+    }
+
+    .list {
+        gap: 10px;
+    }
+
+    .titleSkills {
+        font-size: 10px;
+    }
+
+    .list p {
+        font-size: 5px;
+    }
+
+    .list i {
+        font-size: 20px;
+    }
+
+    .list i:hover {
+        color: var(--cor-primaria);
+    }
+
+    /*Quarta Página*/
+    .fourthBox {
+        height: auto;
+        gap: 10px;
+    }
+
+    .titleProjects {
+        font-size: 10px;
+    }
+
+    .projectsContainer {
+        width: 95%;
+    }
+
+    .imagens {
+        height: 150px;
+        max-width: 120px;
+    }
+
+    .imagens h1 {
+        padding-top: 5px;
+        font-size: 8px;
+    }
+
+    .imagens p {
+        display: none;
+    }
+
+    .imagens img {
+        height: 130px;
+        width: 120px;
+    }
+
+    .referencias {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0px;
+        padding-bottom: 10px;
+    }
+
+    .referencias i {
+        font-size: 5px;
+    }
+
+    .referencias a {
+        gap: 5px;
+        font-size: 6px;
+    }
+
+    /*Quinta Página*/
+    .fifthBox {
+        height: 100vh;
+        gap: 10px;
+    }
+
+    .boxInfoContact {
+        gap: 10px;
+    }
+
+    .contact {
+        font-size: 10px;
+    }
+
+    .contactText {
+        font-size: 8px;
+    }
+
+    .boxContact {
+        border-radius: 5px;
+        border: 1px solid var(--cor-primaria);
+        height: 50px;
+        width: 140px;
+    }
+
+    .boxContactText {
+        gap: 10px;
+    }
+
+    .boxContactText h1 {
+        display: none;
+    }
+
+    .boxContactText i {
+        display: none;
+    }
+
+    .iconsContact i {
+        font-size: 20px;
+    }
+
+    .direitos {
+        font-size: 8px;
     }
 }
