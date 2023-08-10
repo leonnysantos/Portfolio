@@ -1059,6 +1059,181 @@
     }
 }
 
+@media (max-width: 400px) and (max-height: 400px) {
+
+    /*Ícone do Whatsapp*/
+    #socialMedia {
+        right: 10px;
+        bottom: 25px;
+        height: 30px;
+        width: 30px;
+    }
+
+    #socialMedia i {
+        font-size: 18px;
+    }
+
+    #voltarTopo {
+        right: 10px;
+        bottom: 60px;
+        height: 30px;
+        width: 30px;
+    }
+
+    #voltarTopo i {
+        font-size: 18px;
+    }
+
+    /*Primeira Página*/
+    .container {
+        margin-top: 10px;
+    }
+
+    .apresentation h1 {
+        line-height: 18px;
+        font-size: 18px;
+    }
+
+    .myself img {
+        display: none;
+    }
+
+    /*Segunda Página*/
+    .secondBox {
+        height: 100vh;
+    }
+
+    .info {
+        gap: 5px;
+        width: 90%;
+    }
+
+    .myInfo {
+        font-size: 16px;
+    }
+
+    .infos {
+        font-size: 8px;
+    }
+
+    /*Terceira Página*/
+    .thirdBox {
+        height: 100vh;
+    }
+
+    .skills {
+        gap: 30px;
+    }
+
+    .list {
+        gap: 30px;
+    }
+
+    .titleSkills {
+        font-size: 16px;
+    }
+
+    .list p {
+        font-size: 10px;
+    }
+
+    .list i {
+        font-size: 40px;
+    }
+
+    .list i:hover {
+        color: var(--cor-primaria);
+    }
+
+    /*Quarta Página*/
+    .fourthBox {
+        height: auto;
+        gap: 10px;
+    }
+
+    .titleProjects {
+        font-size: 10px;
+    }
+
+    .projectsContainer {
+        width: 95%;
+    }
+
+    .imagens {
+        height: 150px;
+        max-width: 120px;
+    }
+
+    .imagens h1 {
+        padding-top: 5px;
+        font-size: 8px;
+    }
+
+    .imagens p {
+        display: none;
+    }
+
+    .imagens img {
+        height: 130px;
+        width: 120px;
+    }
+
+    .referencias {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0px;
+        padding-bottom: 10px;
+    }
+
+    .referencias i {
+        font-size: 5px;
+    }
+
+    .referencias a {
+        font-weight: bold;
+        gap: 5px;
+        font-size: 8px;
+    }
+
+    /*Quinta Página*/
+    .fifthBox {
+        height: 100vh;
+        gap: 10px;
+    }
+
+    .boxInfoContact {
+        gap: 18px;
+    }
+
+    .contact {
+        font-size: 14px;
+    }
+
+    .contactText {
+        font-size: 8px;
+    }
+
+    .boxContact {
+        border-radius: 5px;
+        border: 1px solid var(--cor-primaria);
+        height: 100px;
+        width: 200px;
+    }
+
+    .boxContactText {
+        gap: 10px;
+    }
+
+    .iconsContact i {
+        font-size: 24px;
+    }
+
+    .direitos {
+        font-size: 8px;
+    }
+}
+
 @media (max-width: 200px) and (max-height: 250px) {
 
     /*Ícone do Whatsapp*/
