@@ -721,7 +721,7 @@
     }
 }
 
-@media (max-height: 800px) {
+@media (max-height: 900px) {
     body {
         gap: 120px;
     }
@@ -909,7 +909,7 @@
     }
 }
 
-@media (max-height: 500px) and (max-width: 800px) {
+@media (max-height: 500px) and (max-width: 900px) {
 
     /*Primeira Página*/
     body {
