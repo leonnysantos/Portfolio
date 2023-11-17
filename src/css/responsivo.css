@@ -52,7 +52,6 @@
     }
 
     .list {
-        flex-direction: column;
         gap: 30px;
     }
 
@@ -188,7 +187,6 @@
     }
 
     .list {
-        flex-direction: column;
         gap: 30px;
     }
 
@@ -342,6 +340,7 @@
 
     /*Terceira Página*/
     .skills {
+        flex-direction: row;
         gap: 50px;
     }
 
@@ -492,11 +491,12 @@
     /*Terceira Página*/
     .skills {
         gap: 50px;
+        flex-direction: row;
     }
 
     .list {
         flex-direction: column;
-        gap: 30px;
+        gap: 26px;
     }
 
     .titleSkills {
@@ -809,17 +809,13 @@
     }
 
     /*Terceira Página*/
-    .skills {
-        gap: 30px;
-    }
-
-    .list {
-        flex-direction: column;
-        gap: 20px;
-    }
-
     .titleSkills {
         font-size: 30px;
+        margin-top: 90px;
+    }
+
+    .skills {
+        gap: 80px;
     }
 
     .list p {
@@ -891,7 +887,7 @@
 
     .boxContact {
         height: 150px;
-        width: 400px;
+        width: 300px;
     }
 
     .boxContactText h1 {
@@ -1450,5 +1446,213 @@
 
     .direitos {
         font-size: 8px;
+    }
+}
+
+@media (max-width: 290px) and (max-height: 700px) {
+
+    /*Ícone do Whatsapp*/
+    #socialMedia {
+        display: none;
+        right: 0px;
+        bottom: 0px;
+        height: 0px;
+        width: 0px;
+    }
+
+    #socialMedia i {
+        display: none;
+    }
+
+    #voltarTopo {
+        display: none;
+        right: 0px;
+        bottom: 0px;
+        height: 0px;
+        width: 0px;
+    }
+
+    #voltarTopo i {
+        display: none;
+    }
+
+    /*Primeira Página*/
+    .firstBox {
+        height: 100vh;
+    }
+
+    .navegation {
+        display: none;
+    }
+
+    .nameLogo {
+        display: none;
+    }
+
+    .options {
+        display: none;
+    }
+
+    .container {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .apresentation h1 {
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .apresentation span {
+        color: var(--cor-primaria);
+        font-weight: bold;
+    }
+
+    .apresentation p {
+        display: none;
+    }
+
+    .myself img {
+        margin-top: 10px;
+        height: 180px;
+        width: 180px;
+        border: 6px solid var(--cor-primaria);
+        border-radius: 50%;
+    }
+
+    /*Segunda Página*/
+    .secondBox {
+        height: 100vh;
+    }
+
+    .info {
+        gap: 5px;
+        width: 90%;
+    }
+
+    .myInfo {
+        font-size: 22px;
+    }
+
+    .infos {
+        font-size: 12px;
+    }
+
+    /*Terceira Página*/
+    .thirdBox {
+        height: 100vh;
+    }
+
+    .skills {
+        gap: 10px;
+    }
+
+    .list {
+        gap: 10px;
+    }
+
+    .titleSkills {
+        font-size: 22px;
+    }
+
+    .list p {
+        font-size: 12px;
+    }
+
+    .list i {
+        font-size: 52px;
+    }
+
+    .list i:hover {
+        color: var(--cor-primaria);
+    }
+
+    /*Quarta Página*/
+    .fourthBox {
+        height: auto;
+        gap: 10px;
+    }
+
+    .titleProjects {
+        font-size: 22px;
+    }
+
+    .projectsContainer {
+        width: 95%;
+    }
+
+    .imagens {
+        height: 260px;
+        max-width: 192px;
+    }
+
+    .imagens h1 {
+        padding-top: 0px;
+        font-size: 14px;
+    }
+
+    .imagens p {
+        display: none;
+    }
+
+    .imagens img {
+        height: 160px;
+        width: 192px;
+    }
+
+    .referencias {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0px;
+        padding-bottom: 10px;
+    }
+
+    .referencias i {
+        font-size: 0px;
+    }
+
+    .referencias a {
+        font-size: 12px;
+    }
+
+    /*Quinta Página*/
+    .fifthBox {
+        height: 100vh;
+        gap: 100px;
+    }
+
+    .boxInfoContact {
+        gap: 10px;
+    }
+
+    .contact {
+        font-size: 22px;
+    }
+
+    .contactText {
+        font-size: 12px;
+    }
+
+    .boxContact {
+        border-radius: 5px;
+        border: 1px solid var(--cor-primaria);
+        height: 90px;
+        width: 240px;
+    }
+
+    .boxContactText {
+        gap: 10px;
+    }
+
+    .iconsContact i {
+        font-size: 24px;
+    }
+
+    .direitos {
+        font-size: 12px;
     }
 }

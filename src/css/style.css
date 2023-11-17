@@ -232,6 +232,7 @@ body::before {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
 .skills {
@@ -252,6 +253,7 @@ body::before {
 }
 
 .titleSkills {
+    margin-top: 160px;
     font-size: 70px;
     color: var(--cor-primaria);
 }
@@ -261,10 +263,12 @@ body::before {
     text-align: center;
     font-size: 25px;
     list-style: none;
+    width: 160px;
+    cursor: pointer;
 }
 
 .list i {
-    font-size: 128px;
+    font-size: 120px;
 }
 
 .list i:hover {
