@@ -5,7 +5,7 @@ Esse é o meu primeiro portfólio. Foquei no preto com detalhes verdes, pois sã
 
 ## Stack utilizada
 
-**Front-end:** Html, Css, JavaScript
+**Front-end:** Html, Css e JavaScript
 
 
 ## Aprendizados
