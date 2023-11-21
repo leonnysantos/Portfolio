@@ -258,7 +258,13 @@ body::before {
     color: var(--cor-primaria);
 }
 
-.list p {
+svg {
+    height: auto;
+    width: 100px;
+    background-color: var(--cor-secundaria);
+}
+
+.list p{
     color: var(--cor-secundaria);
     text-align: center;
     font-size: 25px;
