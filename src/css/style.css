@@ -249,7 +249,7 @@ body::before {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 60px;
+    gap: 40px;
 }
 
 .titleSkills {
@@ -267,12 +267,8 @@ body::before {
     cursor: pointer;
 }
 
-.list i {
-    font-size: 120px;
-}
-
-.list i:hover {
-    color: var(--cor-primaria);
+.list img {
+    height: 110px;
 }
 
 /*Quarta Página*/
